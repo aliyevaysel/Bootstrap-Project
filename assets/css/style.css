@@ -1,0 +1,157 @@
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background: url("../images/concrete_seamless.png");
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: #4aaaa5;
+}
+
+.navbar-brand:hover,
+input:hover,
+textarea:hover,
+button:hover {
+    border-color: #4aaaa5;
+    box-shadow: 0 0 10px #4aaaa5;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: #4aaaa5;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    line-height: 100px;
+    list-style-type: none;
+    color: #fff; 
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav li a {
+    color: #777;
+}
+
+.navbar-nav li a:hover {
+    color: #4aaaa5;
+}
+
+/* Index Section */
+h1 {
+    border-bottom: 3px solid #cccccc ;
+}
+
+.main-section {
+    margin: 0 !important;
+}
+
+/* Aside */
+.main-aside {
+    height: 230px;
+}
+
+.main-aside h2 {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+}
+
+.connect-photo {
+    width: 60px;
+    height: 60px;
+}
+
+/* Contact */
+.btn {
+    background: #4aaaa5;
+    color: #fff;
+}
+
+/* Portfolio */
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.card-body .card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #4aaaa5;
+}
+
+.card-body p {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    border-top: 10px solid #4aaaa5;
+    padding-top:30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+@media (max-width: 980px) and (min-width:768px) {
+    .portfolio-img .card {
+       margin: 0 !important;
+    }
+}
+
+@media (max-width: 980px) {
+    .contact-section {
+        width: 100% !important;
+    }
+}
+
+@media  (max-width: 768px){
+    nav .container-fluid {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: solid 1px #fff;
+    }
+
+    nav ul li a {
+        margin-left: 10px;
+    }
+}
